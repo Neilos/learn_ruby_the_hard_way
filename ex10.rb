@@ -17,3 +17,7 @@ puts fat_cat
 puts
 
 puts "The fat cat has:\n%d\nthings in the list" % [4]
+puts "what is a \"\a\" - Oh I see"
+puts "How does the backspace (\\b) escape character \bwork? It deletes the character after it."
+puts "never use the \"\\r\" character, unless you're a windows fool"
+puts "You can never \s\s\s\s\s\s have too many spaces"
