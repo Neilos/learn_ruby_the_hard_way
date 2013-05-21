@@ -1,0 +1,131 @@
+--------
+Keywords
+--------
+alias   # use to declare an alias for a method
+        # which allows the method to be called
+        # by a different name.
+        # lexically scoped. Use the method Module::alias_method for non-lexical scoping (which affects what self refers to) 
+and
+BEGIN   # A block of code executed as the file
+        # is being loaded
+        # and therefore before the rest of the code 
+        # is executed
+begin   # start of a begin-end code block, which can
+        # optionally but usually does contain a
+        # rescue and ensure clause. 
+break   # causes termination of a code block
+        # or while or untl block. If given an
+        # argument returns the argument as the value
+        # of the terminated block  
+case
+class
+def     # keyword used to define a method
+defined? # has the method been 
+do
+else
+elsif
+END     # A block of code executed 
+        # after the rest of the file has finished
+        # executing.
+end
+ensure  # Used in begin-end block
+false
+for
+if
+in      # Used in a for - in loop
+module
+next    # Bumps an iterator, or a while or until 
+        # block,to the next iteration, unconditionally 
+        # and without executing whatever may remain of 
+        # the block.
+nil
+not
+or
+redo    # ????????????????
+        # Causes unconditional re-execution of a 
+        # code block, with the same parameter bindings
+        # as the current execution.
+rescue  # Designates an exception-handling clause.
+        # an exception type is specified immediately
+        # after (except when rescue is in statement 
+        # modifier position). Can be used as a 
+        # statement modifer
+        # (i.e. at the end of a statement).
+retry   # ????????????????
+return
+self
+super
+then
+true
+undef
+unless
+until
+when
+while
+yield
+
+----------
+Data Types
+----------
+true
+false
+nil       # the only other falsy value other than false
+constants # start with a capital letter
+strings
+numbers
+ranges
+arrays
+hashes
+
+------------------------
+String Escapes Sequences
+------------------------
+For string escape sequences, use them in strings to make sure they do what you think they do.
+
+\\
+\'
+\"
+\a
+\b      # backspace
+\f      
+\n      # newline
+\r      # carriage return
+\t      # horizontal tab
+\v      # vertical tab
+
+---------
+Operators
+---------
+Some of these may be unfamiliar to you, but look them up anyway. Find out what they do, and if you still can't figure it out, save it for later.
+::
+[]
+**
+-(unary) # as in -1 , -2...etc
++(unary) # as in positive 1 , positive 2...etc
+!
+~       # complement operator. A binary operator 
+        # that flips all the ones and zeros
+*
+/
+%       # modulo operator
++
+-
+<<      # bitwise shift right
+>>      # bitwise shift right
+&
+|
+>
+>=
+<
+<=
+<=>
+==
+===
+!=
+=~
+!~
+&&
+||
+..
+...
+
